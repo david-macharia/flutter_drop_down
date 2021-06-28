@@ -1,6 +1,7 @@
 
-import 'package:drop_down_menu/tools/SizeConfig.dart';
 import 'package:flutter/material.dart';
+
+import 'tools/SizeConfig.dart';
 
 typedef Text DropDownBuilder(int index);
 typedef Null OnItemSelected({Text text, dynamic model});
